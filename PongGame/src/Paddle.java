@@ -3,10 +3,10 @@ import java.awt.Color;
 public class Paddle extends Sprite {
 	
 	// GLOBAL VARIABLES
-	private static final int PADDLE_WIDTH = 10;
-	private static final int PADDLE_HEIGHT = 100;
+	private static final int PADDLE_WIDTH = 20;
+	private static final int PADDLE_HEIGHT = 120;
 	private static final Color PADDLE_COLOUR = Color.BLUE;
-	private static final int DISTANCE_FROM_EDGE = 40;
+	private static final int DISTANCE_FROM_EDGE = 10;
 	
 	public Paddle (Player player, int panelWidth, int panelHeight) {
 		setWidth(PADDLE_WIDTH);
